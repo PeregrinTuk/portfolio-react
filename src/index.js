@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Instagram from './svglogos';
-import LinkedIn from './svglogos';
-import Curriculum from './svglogos';
-import Behance from './svglogos';
-import Dribbble from './svglogos';
+import { Instagram, LinkedIn, Curriculum, Behance, Dribbble } from './svglogos';
 import './style.css';
 
 function Portfolio() {
