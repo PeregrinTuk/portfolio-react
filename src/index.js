@@ -4,7 +4,6 @@ import { Instagram, LinkedIn, Curriculum, Behance, Dribbble } from "./svglogos";
 import "./style.css";
 
 function Portfolio() {
-<<<<<<< HEAD
 	return (
 		<div className="contenedor">
 			<div
@@ -70,7 +69,6 @@ function Portfolio() {
 	);
 }
 ReactDOM.render(<Portfolio />, document.getElementById('root'));
-=======
   return (
     <div className="contenedor">
       <div
@@ -128,4 +126,3 @@ ReactDOM.render(<Portfolio />, document.getElementById('root'));
   );
 }
 ReactDOM.render(<Portfolio />, document.getElementById("root"));
->>>>>>> bfb4659e5c60da1edd78b55dce7d5b12d12438d8
