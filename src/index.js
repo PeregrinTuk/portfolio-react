@@ -11,13 +11,18 @@ function Portfolio() {
 				href="https://juliomu.netlify.com/"
 			></div>
 			<div className="pre-cuatro border-top"></div>
-			<a className="uno border-top titulo" href="models.html">
+			<a
+				className="uno border-top titulo"
+				href="models.html"
+				rel="noopener noreferrer"
+			>
 				Models
 			</a>
 			<a
 				className="dos border-top"
 				href="http://instagram.com/julio.ux"
 				target="_blank"
+				rel="noopener noreferrer"
 			>
 				<Instagram />
 			</a>
@@ -25,6 +30,7 @@ function Portfolio() {
 				className="tres border-top"
 				href="https://www.linkedin.com/in/julio-mu"
 				target="_blank"
+				rel="noopener noreferrer"
 			>
 				<LinkedIn />
 			</a>
@@ -39,6 +45,7 @@ function Portfolio() {
 				className="nueve border-bottom"
 				href="https://www.behance.net/juliomu"
 				target="_blank"
+				rel="noopener noreferrer"
 			>
 				<div>
 					<Behance />
@@ -48,6 +55,7 @@ function Portfolio() {
 				className="diez border"
 				href="https://dribbble.com/juliomu"
 				target="_blank"
+				rel="noopener noreferrer"
 			>
 				<div>
 					<Dribbble />
@@ -60,4 +68,4 @@ function Portfolio() {
 		</div>
 	);
 }
-ReactDOM.render(Portfolio, document.getElementById('root'));
+ReactDOM.render(<Portfolio />, document.getElementById('root'));
