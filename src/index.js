@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Instagram from './svglogos';
 import LinkedIn from './svglogos';
@@ -64,4 +64,4 @@ function Portfolio() {
 		</div>
 	);
 }
-ReactDOM.render(document.getElementById('root'));
+ReactDOM.render(Portfolio, document.getElementById('root'));

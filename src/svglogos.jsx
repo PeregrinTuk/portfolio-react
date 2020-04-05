@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
-class Instagram extends Component() {
+class Instagram extends Component {
 	render() {
 		return (
 			<svg
@@ -24,7 +24,7 @@ class Instagram extends Component() {
 		);
 	}
 }
-class LinkedIn extends Component() {
+class LinkedIn extends Component {
 	render() {
 		return (
 			<svg
@@ -40,7 +40,7 @@ class LinkedIn extends Component() {
 		);
 	}
 }
-class Curriculum extends Component() {
+class Curriculum extends Component {
 	render() {
 		return (
 			<svg
@@ -62,7 +62,7 @@ class Curriculum extends Component() {
 		);
 	}
 }
-class Behance extends Component() {
+class Behance extends Component {
 	render() {
 		return (
 			<svg
@@ -78,7 +78,7 @@ class Behance extends Component() {
 		);
 	}
 }
-class Dribbble extends Component() {
+class Dribbble extends Component {
 	render() {
 		return (
 			<svg
