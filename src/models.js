@@ -2,6 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { AirBnb, JavaScript, Grid, Wordpress } from './svglogos';
 import './style.css';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link,
+	NavLink,
+} from 'react-router-dom';
 
 export function Models() {
 	return (
@@ -11,16 +18,12 @@ export function Models() {
 				href="https://juliomu.netlify.com/"
 			></div>
 			<div className="pre-cuatro border-top"></div>
-			<a
-				className="uno border-top titulo"
-				href="/models"
-				rel="noopener noreferrer"
-			>
+			<Link to="/" className="uno border-top titulo">
 				Main
-			</a>
+			</Link>
 			<a
 				className="dos border-top"
-				href="airbnb.html"
+				href="./airbnb.html"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
@@ -28,7 +31,7 @@ export function Models() {
 			</a>
 			<a
 				className="tres border-top"
-				href="https://www.linkedin.com/in/julio-mu"
+				href="/Models/cronometro"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
