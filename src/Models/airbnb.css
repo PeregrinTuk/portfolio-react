@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.header2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 64px;
+    padding: 0 80px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.total {
+    margin-top: 32px;
+}
+.cuadro {
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    padding:  6px 12px;
+    color: #484848;
+    background: none;
+    border: 1px solid #dce0e0;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+.logo {
+    margin: 0 24px;
+    height: 34px;
+    width: 34px;
+    color: #FF5A5F;
+}
+.izquierda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.buscador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #484848;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #ffffff;
+    height: 48px;
+    width: 458px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.lupa {
+    margin: 0 12px;
+}
+.lugar1 {
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    color: #484848;
+}
+.acciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.accion {
+    padding: 16px;
+    line-height: 1;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-weight: 400;
+    font-size: 13.3px;
+    color: #484848;
+    text-decoration: none;
+}
+.descubre, .main {
+    padding: 0 80px;
+}
+.img1 {
+    width: 96px;
+    height: 72px;
+}
+.secciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(72px, 1fr));
+    grid-column-gap: 16px;
+    margin: 0 0 32px 0;
+}
+.subsecciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.seccion {
+    text-align: center;
+    padding: 0 16px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    word-wrap: break-word;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    color: #484848;
+    font-weight: 700;
+}
+.titulo {
+    font-weight: 700;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    padding: 2px 80px;
+    color: #484848;
+    margin: 0;
+}
+.subtitulo {
+    font-weight: 300;
+    color: #484848;
+    font-size: 19px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0 80px;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(259px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(290px, 1fr));
+    grid-column-gap: 16px;
+}
+.articulo {
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+}
+.textos {
+    padding: 8px 0;
+}
+.img {
+    width: 100%;
+    object-fit: cover;
+    justify-self: center;
+    border-radius: 0px;
+    height: 172px;
+}
+.lugar {
+    color: rgb(162, 97, 40);
+    font-weight: 700;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    cursor: pointer;
+}
+.experiencia {
+    color: #484848;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    max-height: 42px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+    margin: 0;
+    padding: 0;
+}
+.precio {
+    font-weight: 300;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #484848;
+    margin: 0;
+    padding: 0;
+}
+.estrellas {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 21px;
+    color: #008489;
+}
+.mas {
+    color: #008489;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    padding: 0 80px;
+    margin:  8px 0 32px 0;
+}
