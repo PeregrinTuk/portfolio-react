@@ -169,7 +169,6 @@ export class ReactLogo extends Component {
 	render() {
 		return (
 			<svg
-				className="icon"
 				width="2500"
 				height="2246"
 				viewBox="0 0 256 230"

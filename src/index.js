@@ -35,10 +35,12 @@ function Portfolio() {
 			</a>
 			<div className="seis border-bottom"></div>
 			<div className="siete"></div>
-			<a className="ocho border-bottom" href="CV.pdf" target="_blank">
-				<div>
-					<Curriculum />
-				</div>
+			<a
+				className="ocho border-bottom"
+				href="https://drive.google.com/file/d/1J7b4Ct4aFxFVLRaitR5-U1da0HlwzXDz/view?usp=sharing"
+				target="_blank"
+			>
+				<Curriculum />
 			</a>
 			<a
 				className="nueve border-bottom"
@@ -87,12 +89,6 @@ function Main() {
 				/>
 				<Route
 					path="/airbnb"
-					render={() => {
-						return <AirBnb />;
-					}}
-				></Route>
-				<Route
-					path="/CV"
 					render={() => {
 						return <AirBnb />;
 					}}
