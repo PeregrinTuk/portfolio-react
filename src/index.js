@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Instagram, LinkedIn, Curriculum, Behance, Dribbble } from './svglogos';
 import { Models } from './models';
+import { AirBnb } from './airbnb';
 import {
 	BrowserRouter as Router,
 	Switch,
@@ -90,6 +91,12 @@ function Main() {
 						return <Models />;
 					}}
 				/>
+				<Route
+					path="/airbnb"
+					render={() => {
+						return <AirBnb />;
+					}}
+				></Route>
 			</Switch>
 		</Router>
 	);

@@ -21,14 +21,9 @@ export function Models() {
 			<Link to="/" className="uno border-top titulo">
 				Main
 			</Link>
-			<a
-				className="dos border-top"
-				href="./airbnb.html"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
+			<Link to="/airbnb" className="dos border-top titulo">
 				<AirBnb />
-			</a>
+			</Link>
 			<a
 				className="tres border-top"
 				href="/Models/cronometro"
