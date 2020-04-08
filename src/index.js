@@ -3,13 +3,7 @@ import ReactDOM from 'react-dom';
 import { Instagram, LinkedIn, Curriculum, Behance, Dribbble } from './svglogos';
 import { Models } from './models';
 import { AirBnb } from './airbnb';
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link,
-	NavLink,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './style.css';
 
 function Portfolio() {

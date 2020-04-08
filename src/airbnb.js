@@ -1,17 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link,
-	NavLink,
-} from 'react-router-dom';
-import AppBar from '@material-ui/core/AppBar';
-import ToolBar from '@material-ui/core/ToolBar';
-import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
