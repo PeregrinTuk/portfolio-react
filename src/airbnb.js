@@ -39,6 +39,9 @@ export function AirBnb() {
 			<Button variant="outlined" color="primary">
 				Primary
 			</Button>
+			<div>
+				<Button variant="outlined">Default</Button>
+			</div>
 		</div>
 	);
 }
