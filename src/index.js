@@ -91,6 +91,12 @@ function Main() {
 						return <AirBnb />;
 					}}
 				></Route>
+				<Route
+					path="/CV"
+					render={() => {
+						return <AirBnb />;
+					}}
+				></Route>
 			</Switch>
 		</Router>
 	);
