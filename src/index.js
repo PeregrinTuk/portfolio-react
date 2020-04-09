@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Instagram, LinkedIn, Curriculum, Behance, Dribbble } from './svglogos';
+import { Instagram, LinkedIn, Curriculum, Behance } from './svglogos';
 import { Models } from './models';
 import { AirBnb } from './airbnb';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -52,16 +52,7 @@ function Portfolio() {
 					<Behance />
 				</div>
 			</a>
-			<a
-				className="diez border"
-				href="https://dribbble.com/juliomu"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				<div>
-					<Dribbble />
-				</div>
-			</a>
+			<a className="diez border"></a>
 			<div className="post-uno"></div>
 			<div className="post-dos"></div>
 			<div className="post-tres"></div>
