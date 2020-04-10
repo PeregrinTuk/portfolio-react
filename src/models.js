@@ -15,7 +15,7 @@ export function Models() {
 				Main
 			</Link>
 			<Link to="/airbnb" className="dos border-top titulo" target="_blank">
-				<AirBnb />
+				<ReactLogo />
 			</Link>
 			<a
 				className="tres border-top"
@@ -34,7 +34,7 @@ export function Models() {
 			</a>
 			<a
 				className="nueve border-bottom"
-				href="https://www.behance.net/juliomu"
+				href="https://ositoacolchados.com/"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
@@ -49,7 +49,7 @@ export function Models() {
 				rel="noopener noreferrer"
 			>
 				<div>
-					<ReactLogo />
+					<AirBnb />
 				</div>
 			</a>
 			<div className="post-uno"></div>
