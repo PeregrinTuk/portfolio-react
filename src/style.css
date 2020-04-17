@@ -266,6 +266,9 @@ html {
 	.post-dos {
 		display: none;
 	}
+	.post-tres {
+		height: 30px;
+	}
 }
 
 @media screen and (min-width: 475px) and (max-width: 769px) {
