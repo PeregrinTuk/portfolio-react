@@ -263,6 +263,9 @@ html {
 		word-break: break-all;
 		border: none;
 	}
+	.post-dos {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 475px) and (max-width: 769px) {
