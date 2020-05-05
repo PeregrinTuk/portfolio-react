@@ -14,9 +14,9 @@ export function Models() {
 			<Link to="/" className="uno border-top titulo">
 				Main
 			</Link>
-			<Link to="/airbnb" className="dos border-top titulo" target="_blank">
+			<button className="dos border-top titulo">
 				<ReactLogo />
-			</Link>
+			</button>
 			<a
 				className="tres border-top"
 				href="/Models/cronometro"
