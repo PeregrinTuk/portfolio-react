@@ -14,9 +14,7 @@ function Portfolio() {
 				href="https://juliomu.netlify.com/"
 			></div>
 			<div className="pre-cuatro border-top"></div>
-			<Link to="/models" className="uno border-top titulo">
-				Models
-			</Link>
+			<div className="uno border-top titulo"></div>
 			<a
 				className="dos border-top"
 				href="http://instagram.com/julio.ux"
