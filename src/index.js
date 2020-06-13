@@ -17,7 +17,7 @@ function Portfolio() {
 			<div className="uno border-top titulo"></div>
 			<a
 				className="dos border-top"
-				href="http://instagram.com/julio.ux"
+				href="http://instagram.com/juliomu_"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
