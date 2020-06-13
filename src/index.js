@@ -35,7 +35,7 @@ function Portfolio() {
 			<div className="siete"></div>
 			<a
 				className="ocho border-bottom"
-				href="https://drive.google.com/drive/u/0/folders/1T85-0uKEcyEvZuiZyHrTQ9YLlxDrPvJW"
+				href="https://drive.google.com/file/d/1tMLniwulPuM0sgx0F4TyE_sG4_ddted_/view?usp=sharing"
 				target="_blank"
 			>
 				<Curriculum />
