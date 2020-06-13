@@ -25,7 +25,7 @@ function Portfolio() {
 			</a>
 			<a
 				className="tres border-top"
-				href="https://www.linkedin.com/in/julio-mu"
+				href="https://www.linkedin.com/in/juliomu"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
